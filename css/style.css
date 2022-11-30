@@ -6,6 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+  
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -152,13 +153,13 @@ sup {
 }
 
 a {
-  color: #0BCEAF;
+  color: var(--primary);
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #078571;
+  color: var(--primary);
   text-decoration: underline;
 }
 
@@ -2666,8 +2667,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #0BCEAF;
-  border-color: #0BCEAF;
+  color: var(--primary);
+  border-color: var(--primary);
 }
 
 .btn-outline-primary:hover {
@@ -6355,7 +6356,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color:#000000!important;
+  
+background: url(../vipul-jha-a4X1cdC1QAc-unsplash\ \(1\).jpg);
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
